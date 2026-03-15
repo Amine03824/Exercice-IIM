@@ -1,5 +1,4 @@
 const axios = require("axios");
-const { where } = require("sequelize");
 
 // Les champs que je veux des arbres
 const fields = `
@@ -18,7 +17,7 @@ const fields = `
       com_copyright1`;
 
 const apiUrl =
-  "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/les-arbres-remarquables/records";
+  "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/arbresremarquablesparis/records";
 
 const treeController = {
   // Récupérer tous les arbres (page d'accueil)
@@ -172,16 +171,20 @@ const treeController = {
   },
 
   getOneTreeById: async (request, response) => {
+    console.log("controller appelé");
     try {
-      const treeId = request.params.id;
+      const { id } = request.params;
+      console.log(`arbres_idbase=${id}`);
 
       const resAPI = await axios.get(apiUrl, {
         params: {
           select: fields,
-          where: `arbres_idbase="${treeId}"`,
+          where: `arbres_idbase=${id}`,
         },
       });
-
+      if (resAPI.data.results.length === 0) {
+        return response.status(404).json({ error: "Arbre non trouvé" });
+      }
       // Formatage pour le Front
       const currentYear = new Date().getFullYear();
 
@@ -220,4 +223,4 @@ const treeController = {
   },
 };
 
-module.exports = router;
+module.exports = treeController;

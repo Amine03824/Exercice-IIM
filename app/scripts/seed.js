@@ -1,6 +1,6 @@
 require("dotenv").config();
-const sequelize = require("./app/config/database");
-const { User, Favorites } = require("./app/models");
+const sequelize = require("../config/database");
+const { User, Favorites } = require("../models");
 const bcrypt = require("bcrypt");
 
 const db = {

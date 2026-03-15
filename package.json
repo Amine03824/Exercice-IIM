@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node app/scripts/seed.js"
   },
   "dependencies": {
     "axios": "^1.13.6",
