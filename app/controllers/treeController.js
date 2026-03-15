@@ -171,10 +171,8 @@ const treeController = {
   },
 
   getOneTreeById: async (request, response) => {
-    console.log("controller appelé");
     try {
       const { id } = request.params;
-      console.log(`arbres_idbase=${id}`);
 
       const resAPI = await axios.get(apiUrl, {
         params: {
