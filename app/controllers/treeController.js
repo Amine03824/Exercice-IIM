@@ -6,7 +6,7 @@ const fields = `
       com_nom_usuel,
       com_nom_latin,
       com_site,
-      tree.com_arrondissement,
+      com_arrondissement,
       geom_x_y,
       com_qualification_rem,
       com_resume,
