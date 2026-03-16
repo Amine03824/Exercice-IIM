@@ -4,7 +4,7 @@
 
 L'idée était de sortir des cartes Pokémon habituelles et de faire un truc un peu plus fun. J'ai un projet d'application "historique" sur Paris et j'aime l'idée de gamifier certains lieux. Ça fait un moment que je connais l'existence de l'API des arbres remarquables parce que certains m'ont intrigué sur l'Open Data de Paris ; la carte en ligne est bien faite, mais je n'avais jamais vu en détail comment elle fonctionnait.
 
-* **Front-end (Client) :** [Lien Cloudflare Pages](https://www.google.com/search?q=ton-lien-cloudflare-ici)
+* **Front-end (Client) :** [Lien Cloudflare Pages](https://frontend-card.cloudflare-mqkhv.workers.dev/)
 
 * **Back-end (API) :** [https://treecard-backend.onrender.com](https://treecard-backend.onrender.com)
 > *Hébergé sur Render. *Hébergé sur render (attendre que le serveur démarre environ 30s avant de lancer le front)*
