@@ -59,11 +59,11 @@ L'idée était de sortir des cartes Pokémon habituelles et de faire un truc un 
 ![Maquette](./docs/Excalidraw.png)
 
 ### Modèle de données (MCD)
-![MCD](./docs/mcd.png)
+![MCD](./docs/MCD.png)
 
 ### Tests d'API (Screenshots)
 
-![API](./docs/api.png)
+![API](./docs/API.png)
 
 ### État du projet & Retours d'expérience
 
