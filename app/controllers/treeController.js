@@ -6,7 +6,7 @@ const fields = `
       com_nom_usuel,
       com_nom_latin,
       com_site,
-      com_arrondissement,
+      tree.com_arrondissement,
       geom_x_y,
       com_qualification_rem,
       com_resume,
@@ -46,7 +46,7 @@ const treeController = {
         categorie: tree.com_qualification_rem,
         coords: tree.geom_x_y,
         lieu: tree.com_site,
-        arrondissement: com_arrondissement,
+        arrondissement: tree.com_arrondissement,
         photo: {
           url: tree.com_url_photo1 || null,
           copyright: tree.com_copyright1 || null,
@@ -96,7 +96,7 @@ const treeController = {
         categorie: tree.com_qualification_rem,
         coords: tree.geom_x_y,
         lieu: tree.com_site,
-        arrondissement: com_arrondissement,
+        arrondissement: tree.com_arrondissement,
         photo: {
           url: tree.com_url_photo1 || null,
           copyright: tree.com_copyright1 || null,
@@ -144,7 +144,7 @@ const treeController = {
         nomLatin: tree.com_nom_latin,
         categorie: tree.com_qualification_rem,
         coords: tree.geom_x_y,
-        arrondissement: com_arrondissement,
+        arrondissement: tree.com_arrondissement,
         lieu: tree.com_site,
         photo: {
           url: tree.com_url_photo1 || null,
@@ -196,7 +196,7 @@ const treeController = {
         categorie: tree.com_qualification_rem,
         coords: tree.geom_x_y,
         lieu: tree.com_site,
-        arrondissement: com_arrondissement,
+        arrondissement: tree.com_arrondissement,
         photo: {
           url: tree.com_url_photo1 || null,
           copyright: tree.com_copyright1 || null,
