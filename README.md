@@ -1,3 +1,5 @@
+** modification effectuée, après l'heure limite : retrait du lien de connexion BDD de test **
+
 # TCG Explorer – Les Arbres Remarquables de Paris
 
 ## Introduction
