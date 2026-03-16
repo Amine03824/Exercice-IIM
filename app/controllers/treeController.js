@@ -26,7 +26,7 @@ const treeController = {
     try {
       // Charger les 20 premiers arbres puis mettre le offset de la page
       const page = parseInt(request.query.page) || 0;
-      const limit = 25;
+      const limit = 50;
 
       const resAPI = await axios.get(apiUrl, {
         params: {

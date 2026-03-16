@@ -13,9 +13,10 @@ router.get("/arbres/:id", treeController.getOneTreeById);
 // Routes de gestion d'utilisateurs
 router.post("/users", authenticationController.signUp);
 router.delete("/users", authenticationController.delete);
+router.post("/login", authenticationController.logIn);
 
 // Routes de gestion des favoris
 router.get("/favorites/:userId", userController.getFavorites);
 router.post("/favorites", userController.toggleFavorite);
-// Export
+
 module.exports = router;

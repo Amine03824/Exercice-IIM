@@ -56,6 +56,33 @@ const authenticationController = {
       response.status(500).json({ error: "Erreur lors de l'inscription" });
     }
   },
+  logIn: async (request, response) => {
+    try {
+      const { email, password } = request.body;
+
+      const user = await User.findOne({ where: { email } });
+      if (!user) {
+        return response.status(401).json({ error: "Identifiants incorrects" });
+      }
+
+      const validPassword = await bcrypt.compare(password, user.password);
+      if (!validPassword) {
+        return response.status(401).json({ error: "Identifiants incorrects" });
+      }
+
+      response.json({
+        message: "Connexion réussie",
+        user: {
+          id: user.id,
+          username: user.username,
+        },
+      });
+    } catch (error) {
+      console.error("Erreur Serveur :", error.message);
+      response.status(500).json({ error: "Erreur lors de la connexion" });
+    }
+  },
+
   delete: async (request, response) => {
     try {
       const userId = request.body.userId;
