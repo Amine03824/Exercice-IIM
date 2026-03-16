@@ -118,8 +118,8 @@ L'objectif est d'avoir une API qui renvoie au front des endpoints pour se connec
 
 ## 🛠 Usage de l'IA & Sources
 
-* **IA :** Utilisée pour la réflexion sur une partie de la structure, le debug des props, certaines classes Tailwind (dont la doc n'est pas toujours claire), des suggestions de couleurs, et la correction de bugs sur les modales. Côté back, elle a aidé sur le debug de typos dans mes requêtes et la mise en forme du texte du README.
-* **Inspiration :** Je me suis inspiré de projets similaires faits en formation (notamment pour le scaffolding Sequelize, le seed, etc.).
+* **IA :** Utilisée pour la réflexion sur une partie de la structure, le debug des props, certaines classes Tailwind, des suggestions de couleurs, et la correction de bugs sur les modales. Côté back, elle a aidé sur le debug de typos dans mes requêtes et la mise en forme du texte du README.
+* **Inspiration :** Je me suis inspiré de projets similaires faits en formation (notamment pour le scaffolding Sequelize, le seed, la structure React etc.).
 
 ---
 
