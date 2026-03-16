@@ -67,7 +67,7 @@ L'idée était de sortir des cartes Pokémon habituelles et de faire un truc un 
 
 ### État du projet & Retours d'expérience
 
-J'ai passé trop de temps à hésiter et réfléchir sur le type d'API, et pas assez de temps sur le front : j'ai construit et déconstruit des choses pour aller vite. J'aurais dû commencer le projet plus tôt, mais j'avais des tests techniques chez Eni et le CESI à préparer Jeudi et vendredi. 
+J'ai passé trop de temps à hésiter et réfléchir sur le type d'API, et pas assez de temps sur le front : j'ai construit et déconstruit des choses pour aller vite. J'aurais dû commencer le projet plus tôt, mais j'avais des tests techniques à préparer Jeudi et vendredi. 
 
 Je suis par contre vraiment motivé à terminer ce projet et à le présenter en détail si ça vous intéresse quand même.
 
