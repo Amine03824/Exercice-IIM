@@ -9,7 +9,7 @@ L'idée était de sortir des cartes Pokémon habituelles et de faire un truc un 
 * **Back-end (API) :** [https://treecard-backend.onrender.com](https://treecard-backend.onrender.com)
 > *Hébergé sur Render. *Hébergé sur render (attendre que le serveur démarre environ 30s avant de lancer le front)*
 
-* **URL de connexion :** `postgresql://tree_card_database_user:gk12QMx6eoUuSP4Vk8RV9hCfg7Br65TX@dpg-d6rjd7a4d50c73b6qmu0-a.frankfurt-postgres.render.com/tree_card_database`
+* **URL de connexion :** `postgresql://tree_card_database_user:@dpg-d6rjd7a4d50c73b6qmu0-a.frankfurt-postgres.render.com/tree_card_database`
 
 
 ## Gestion de projet: 
